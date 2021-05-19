@@ -16,6 +16,7 @@ TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_BLUR := true
 $(call inherit-product, vendor/dot/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
